@@ -6,12 +6,12 @@ from gatet import Tele  # Ensure this module is correctly installed or replace w
 import os
 
 # Bot token and initialization
-token = '7726534009:AAE88S_QoVc5kuUhBcYG7NctgiOhrfipPdw'
+token = '7584467985:AAEPjPxRZUAA-ro5bSQbbvmA3-xSZ29neQg'
 bot = telebot.TeleBot(token, parse_mode="HTML")
 
 # Subscribers list (authorized users)
 subscriber = [
-    '6249257243', 
+    '6181269269', 
     '5442332281', 
     '5991909954', 
     '7303810912', 
@@ -110,7 +110,7 @@ def main(message):
 🔹 **Bank**: {bank}
 🔹 **Bank URL**: {bank_url}
 🔹 **Checked By**: @abirxdhackz
-🔹 **Credit**: @abirxdhackz
+🔹 **Credit**: @ERR0R9
 """
                     bot.reply_to(message, details, parse_mode="Markdown")
 
